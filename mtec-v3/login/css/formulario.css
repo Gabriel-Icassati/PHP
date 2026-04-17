@@ -1,0 +1,52 @@
+body {
+    background-color: #1d0538;
+}
+
+header {
+    text-align: center;
+    font-size: 19vw;
+    color: #1d0538;
+    -webkit-text-stroke: 2px aliceblue;
+    filter: drop-shadow(1px 1px 15px aliceblue);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3vh;
+    filter: drop-shadow(1px 1px 15px aliceblue);
+}
+
+input {
+    width: 40vw;
+    height: 5vh;
+    border: 2px solid aliceblue;
+    background-color: #1d0538;
+    color: aliceblue;
+    font-size: 2vh;
+    padding: 0 10px;
+}
+
+input[value="Inserir"] {
+    width: 22vw;
+    color: aliceblue;
+    margin-bottom: 5vh;
+}
+
+input[value="Inserir"]:hover {
+    background-color:#421872;
+}
+
+::-webkit-input-placeholder {
+    color: aliceblue;
+    font-size: 2vh;
+    text-align: center;
+}
+
+footer {
+    color: aliceblue;
+    font-size: 18px;
+    text-align: center;
+}
