@@ -45,6 +45,16 @@ input[value="Inserir"]:hover {
     text-align: center;
 }
 
+p {
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
 footer {
     color: aliceblue;
     font-size: 18px;
